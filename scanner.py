@@ -6,4 +6,4 @@ def scan_network(ip_address, port_range):
         response = scapy.sr1(packet, timeout=1, verbose=0)
         if response:
             print(f"Port {port} is open on {ip_address}")
-scan_network("192.168.1.1", (1, 100))
+scan_network("223.178.87.103", (1, 100))
